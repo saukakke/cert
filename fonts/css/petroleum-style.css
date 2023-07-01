@@ -1,0 +1,91 @@
+.body {
+    text-align: center;
+    padding: 1%;
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.school-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.body .certify, .body .name, .body .content{
+    margin: 4%;
+}
+
+.body .certify {
+    font-family: 'Old English Text MT';
+}
+
+.body .name, .body .name label b, .num #reg-num {
+    font-family: 'Vladimir Script';
+    font-size: 2.4rem;
+}
+
+.h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: -2rem;
+}
+
+label{
+    font-size: 1.5rem;
+}
+
+.body div {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.body .certify, .body .name, .body .content{
+    margin: 2%;
+}
+
+.reg_num{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    width: 90%;
+}
+
+.certDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    align-self: center;
+    padding-top: 2%;
+}
+
+.num #reg-num {
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: -1rem;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+.num {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: baseline;
+}
+
+.fa {
+    color: red;
+}
+
+.content{
+    font-style: italic;
+}

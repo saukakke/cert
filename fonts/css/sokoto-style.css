@@ -1,0 +1,149 @@
+* {
+    font-size: 1rem;
+}
+
+.body {
+    text-align: center;
+    padding: 1%;
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    background-color: black;
+    padding: 1%;
+}
+
+#cert-id{
+    margin-left: auto;
+    margin-top: -10rem;
+    margin-bottom: 8rem;
+    margin-right: 8rem;
+    font-family: 'MODERN TYPEWRITER';
+}
+
+.certDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    align-self: center;
+    padding-top: 2%;
+}
+
+.header, .signDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.h1 {
+    font-weight: bold;
+    font-family: 'Tw Cen MT Condensed Extra';
+}
+
+.num {
+    margin-left: .3rem;
+}
+
+.profile b {
+    margin-right: auto;
+}
+
+.h1 {
+    font-family: 'Tw Cen MT';
+    font-size: 2rem;
+}
+
+#image {
+    border-radius: 10px;
+}
+
+.header .cert-id {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+label, b{
+    font-size: 1.5rem;
+}
+
+.reg_num  {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.school-header, .sign, .profile, .num  {
+    display: flex;
+    flex-direction: column;
+}
+
+.certificate label{
+    font-size: 2rem;
+    font-family: Arial;
+}
+
+.sign {
+    justify-content: space-around;
+}
+
+.fa {
+    color: red;
+}
+
+u{
+    font-size: 1.8rem;
+}
+
+ div {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+ .certify,  .content{
+    margin: 2%;
+}
+
+.certify label {
+    font-family: 'Old English Text MT';
+}
+
+ .singDiv {
+    text-align: center;
+    align-items: center;
+}
+
+ .date {
+    margin: 2%;
+}
+
+.text label {
+    margin-top: -1.6rem;
+}
+
+.content{
+    font-style: italic;
+}
+
+#reg-num {
+    font-family: 'Vladimir Script';
+    font-size: 1rem;
+}
+
+.num #reg-num {
+    margin-left: 2rem;
+    margin-bottom: -1.5rem;
+    font-weight: bold;
+    align-content: flex-end;
+}
+
+.date label {
+    font-family: 'Old English Text MT';
+}

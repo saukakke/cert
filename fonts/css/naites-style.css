@@ -1,0 +1,144 @@
+* {
+    font-size: 1rem;
+    font-family: Arial;
+}
+
+.body {
+    background-color: red;
+    padding: 1%;
+    width: 98%;
+    height: 100%;
+}
+
+.wrapper {
+    background-color: black;
+    padding: 1%;
+}
+
+.main {
+    background-image: url("../../image/background.jpg");
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 18rem;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.signDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.signDiv .sign {
+    margin-top: 2.5rem;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.profile b {
+    margin-right: auto;
+}
+
+#profile {
+    border-radius: 10px;
+    background-color: black;
+    padding: .3rem;
+}
+
+.h2, .h1{
+    font-family: 'Tw Cen MT Condensed';
+    font-weight: bold;
+}
+
+.h1 {
+    font-size: 3rem;
+}
+
+.h2 {
+    font-size: 2rem;
+}
+
+#image {
+    border-radius: 10px;
+}
+
+.main .header .cert-id {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+label, b{
+    font-size: 1.5rem;
+}
+
+.school-header, .sign, .profile  {
+    display: flex;
+    flex-direction: column;
+}
+
+.certificate label{
+    font-size: 2rem;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.content > label{
+    font-family: 'Old English Text MT';
+}
+
+.name > label, .course > label, .classofdegree > label{
+    margin-bottom: -1rem;
+    font-family: 'Modern Typewriter';
+}
+
+.classofdegree {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name, .course{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign {
+    justify-content: space-around;
+}
+
+.fa {
+    color: red;
+}
+
+u{
+    font-size: 1.8rem;
+}
+
+.main div {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.main .certify, .main .name, .main .content{
+    margin: 2%;
+}
+
+.main .singDiv {
+    text-align: center;
+    align-items: center;
+}
+
+.main .date {
+    margin: 2%;
+}
